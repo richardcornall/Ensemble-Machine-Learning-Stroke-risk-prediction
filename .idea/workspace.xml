@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39a85d4-b926-40db-9d9c-d933949a7ae9" name="Changes" comment="Split dataset into train, validation and testing">
-      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="e39a85d4-b926-40db-9d9c-d933949a7ae9" name="Changes" comment="Classification report implemented" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727282758143</updated>
-      <workItem from="1727282759395" duration="983000" />
+      <workItem from="1727282759395" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="Loaded dataset">
       <option name="closed" value="true" />
@@ -119,7 +117,87 @@
       <option name="project" value="LOCAL" />
       <updated>1727283750659</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implement feature scaling (Age glucose and BMI)">
+      <option name="closed" value="true" />
+      <created>1727283789690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283789690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initialize Random Forest, Gradient boosting classifier and XGB Classifier">
+      <option name="closed" value="true" />
+      <created>1727283832407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283832407</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hyperparameter tuning for Random Forest using Stratified K-Fold Cross-Validation">
+      <option name="closed" value="true" />
+      <created>1727283868218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283868218</updated>
+    </task>
+    <task id="LOCAL-00009" summary="# Hyperparameter tuning for Gradient Boosting">
+      <option name="closed" value="true" />
+      <created>1727283879930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283879930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated as previous commit nonfunctional">
+      <option name="closed" value="true" />
+      <created>1727283908394</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283908394</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Same for XGBoost">
+      <option name="closed" value="true" />
+      <created>1727283927012</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283927012</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated code again due to nonfunction for xgboost parameters">
+      <option name="closed" value="true" />
+      <created>1727283950168</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283950168</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implemented Ensemble Machine learning model using voting classifier">
+      <option name="closed" value="true" />
+      <created>1727284005600</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727284005600</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Predict on validation data">
+      <option name="closed" value="true" />
+      <created>1727284025928</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727284025928</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Classification report implemented">
+      <option name="closed" value="true" />
+      <created>1727284059504</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727284059504</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +208,16 @@
     <MESSAGE value="Defined features and target variable" />
     <MESSAGE value="Handle imbalances in dataset (SMOTE)" />
     <MESSAGE value="Split dataset into train, validation and testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split dataset into train, validation and testing" />
+    <MESSAGE value="Implement feature scaling (Age glucose and BMI)" />
+    <MESSAGE value="Initialize Random Forest, Gradient boosting classifier and XGB Classifier" />
+    <MESSAGE value="Hyperparameter tuning for Random Forest using Stratified K-Fold Cross-Validation" />
+    <MESSAGE value="# Hyperparameter tuning for Gradient Boosting" />
+    <MESSAGE value="Updated as previous commit nonfunctional" />
+    <MESSAGE value="Same for XGBoost" />
+    <MESSAGE value="Updated code again due to nonfunction for xgboost parameters" />
+    <MESSAGE value="Implemented Ensemble Machine learning model using voting classifier" />
+    <MESSAGE value="Predict on validation data" />
+    <MESSAGE value="Classification report implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classification report implemented" />
   </component>
 </project>
