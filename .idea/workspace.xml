@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39a85d4-b926-40db-9d9c-d933949a7ae9" name="Changes" comment="Stratified Fold error fixed" />
+    <list default="true" id="e39a85d4-b926-40db-9d9c-d933949a7ae9" name="Changes" comment="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727282758143</updated>
-      <workItem from="1727282759395" duration="1591000" />
+      <workItem from="1727282759395" duration="2823000" />
     </task>
     <task id="LOCAL-00001" summary="Loaded dataset">
       <option name="closed" value="true" />
@@ -277,7 +280,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727284355221</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Errors with Learning curve and Cross_val_score fixed">
+      <option name="closed" value="true" />
+      <created>1727284410829</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727284410829</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score">
+      <option name="closed" value="true" />
+      <created>1727284585365</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727284585365</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +326,8 @@
     <MESSAGE value="ROC AUC Curve for validation" />
     <MESSAGE value="Precision recall on test dataset" />
     <MESSAGE value="Stratified Fold error fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stratified Fold error fixed" />
+    <MESSAGE value="Errors with Learning curve and Cross_val_score fixed" />
+    <MESSAGE value="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score" />
   </component>
 </project>
