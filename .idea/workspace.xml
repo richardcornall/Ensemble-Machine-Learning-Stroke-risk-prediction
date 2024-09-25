@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39a85d4-b926-40db-9d9c-d933949a7ae9" name="Changes" comment="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="e39a85d4-b926-40db-9d9c-d933949a7ae9" name="Changes" comment="Seems to all work committing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727282758143</updated>
-      <workItem from="1727282759395" duration="2823000" />
+      <workItem from="1727282759395" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="Loaded dataset">
       <option name="closed" value="true" />
@@ -296,14 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727284585365</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Seems to all work committing">
+      <option name="closed" value="true" />
+      <created>1727286524252</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727286524252</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Loaded dataset" />
     <MESSAGE value="Defined features and target variable" />
     <MESSAGE value="Handle imbalances in dataset (SMOTE)" />
     <MESSAGE value="Split dataset into train, validation and testing" />
@@ -328,6 +332,7 @@
     <MESSAGE value="Stratified Fold error fixed" />
     <MESSAGE value="Errors with Learning curve and Cross_val_score fixed" />
     <MESSAGE value="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed errors with:&#10;roc_auc_score, roc_curve, precision_recall_curve, average_precision_score" />
+    <MESSAGE value="Seems to all work committing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seems to all work committing" />
   </component>
 </project>
